@@ -1,7 +1,8 @@
 # the picturebooth
 This is a small web-based photo booth I’ve been building as a fun side project. It allows users to take photos using their webcam, apply simple filters, and then generate a classic photo booth strip that can be downloaded.
 
-It’s not meant to be anything groundbreaking — it’s just a personal project to experiment with JavaScript, CSS animations, and working with the webcam API in the browser.
+It’s not meant to be anything groundbreaking.
+It’s just a personal project to experiment with JavaScript, CSS animations, and working with the webcam API in the browser.
 
 What it does
 -> Accesses the user’s webcam in the browser
@@ -17,7 +18,7 @@ Tech used
 -> CSS
 -> Vanilla JavaScript
 -> Browser MediaDevices / Canvas APIs
--> No frameworks, no libraries — just keeping it simple.
+-> No frameworks, no libraries, just keeping it simple.
 
 
 Project status

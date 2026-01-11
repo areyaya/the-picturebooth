@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Photobooth</title>
+    <link rel="stylesheet" href="Stylesheets/pictureBoothStyleSheet.css">
+</head>
+<body>
+    
+    <div class="photobooth">
+        <div class="countdown-container"></div>
+        
+        <div class="video-container">
+            <div class = "countdown-overlay" id="countdownOverlay"></div>
+            <video id="screen" autoplay></video>
+        </div>
+        
+        <button id="clickphoto"></button>
+        
+        <canvas id="canvas" width="500" height="400" style="display:none;"></canvas>
+    
+    </div>
+    <script src="jsfiles/cameraAccess.js"></script>
+</body>
+</html>

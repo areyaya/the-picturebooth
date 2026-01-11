@@ -7,7 +7,7 @@
 
 /*-------------------------------------*/
 
-/* ------------------ Reset & Body ------------------ */
+/* -----------Reset & Body ------------ */
 * {
     margin: 0;
     padding: 0;
@@ -24,8 +24,9 @@ body {
     gap: 20px;
     font-family: sans-serif;
 }
+/*-------------------------------------*/
 
-/* ------------------ Pocket (Printer Slot) ------------------ */
+/* ------------ Pocket (Printer Slot) ------------ */
 .circle-pocket {
     width: 220px;
     height: 220px;
@@ -39,16 +40,17 @@ body {
     position: relative;
     cursor: pointer;
     z-index: 1;
-    overflow: hidden; /* This hides the top half of the strip */
+    overflow: hidden;
 
     cursor: default;
 }
+/*-------------------------------------*/
 
-/* ------------------ Strip Wrapper ------------------ */
+/* -----------Strip Wrapper------------ */
 .strip-wrapper {
     position: absolute;
     left: 50%;
-    top: 50%; /* Position so half is inside, half is outside */
+    top: 50%; 
     transform: translateX(-50%);
     z-index: 0;
 
@@ -60,7 +62,9 @@ body {
     transition: translate 2s ease-in-out;
 }
 
-/* ------------------ Canvas / Strip ------------------ */
+/*-------------------------------------*/
+
+/* --------- Canvas / Strip ------------ */
 .strip {
     display: block;
     width: 100%;
@@ -68,10 +72,10 @@ body {
     max-height: 80vh;
 }
 
-/* ------------------ Download Button ------------------ */
+/* --------- Download Button ----------- */
 #download-button {
-    opacity: 1; /* Always visible */
-    pointer-events: auto; /* Always clickable */
+    opacity: 1; 
+    pointer-events: auto; 
     padding: 10px 20px;
     border: none;
     border-radius: 8px;
@@ -90,5 +94,6 @@ body {
     color: #353433;
     font-family: 'Courier New', Courier, monospace;
     transition: background 0.3s ease-in-out;
+
 
 }
